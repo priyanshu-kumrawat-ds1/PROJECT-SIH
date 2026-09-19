@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from App.routes import health
-from App.routes import routing
-from App.routes import traffic
+from app.routes import health
+from app.routes import routing
+from app.routes import traffic
 
 
 # --------------------------------------------------
